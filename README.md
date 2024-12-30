@@ -43,34 +43,27 @@ DEVELOPED BY : SUDHARSAN S
 
 REG NO: 24009664
 
-```
-module experiment11(out,clk,rstn);
-input clk,rstn;
-output reg [3:0]out;
-always @ (posedge clk)
-begin
-   if(!rstn)
-	  out<=0;
-	else
-     out <= out+1;
-end
-endmodule
-```
+![image](https://github.com/user-attachments/assets/22497184-9bc7-4404-8204-b3170e388313)
 
-**RTL LOGIC UP COUNTER**
+RTL LOGIC UP COUNTER:
 
-![image](https://github.com/user-attachments/assets/847fcdb6-2a38-4091-a9b9-552f4f335fa0)
+![image](https://github.com/user-attachments/assets/c553a5a5-096e-477a-94eb-50e2561a0916)
+
+TIMING DIAGRAM FOR IP COUNTER: 
+
+![image](https://github.com/user-attachments/assets/d6b4f2a4-643c-49fd-82fd-f41307243162)
+
+TRUTH TABLE:
+
+![image](https://github.com/user-attachments/assets/ea2f2b93-dbb0-4555-9c02-f62d2b984900)
 
 
-**TIMING DIAGRAM FOR IP COUNTER**
-
-![image](https://github.com/user-attachments/assets/27c85d6d-062d-428a-9169-a29ba1afeb83)
+RESULTS: Thus the given 4 bit synchronous up counter are implimented using and validate functionality are verified using verilog programming.
 
 
-**TRUTH TABLE**
-
-![image](https://github.com/user-attachments/assets/7928ef9e-8d7b-4a09-80ed-59d61067be5a)
 
 
-**RESULTS**
- Hence a 4 bit synchronous up counter is implemented correctly.
+
+
+
+
